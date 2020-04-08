@@ -32,10 +32,8 @@ if a == ("yes"):
     else:
         print("incorrect answer")
 
-    ans = str(input("4,Afham want to study in America and work on American Space company NASA."
-                    "so what engineering feild he will choose?(mechanical engineering/software engineering"))
-    if ans == ("mechanical engineering"):
-        score += 1
+    ans = str(input("6,Who is the founder of Pakistan?"))
+    if ans == ("Quaid e azam") or ("muhammad ali jinnah"):
         print("correct answer")
 
     else:
@@ -69,10 +67,6 @@ if a == ("yes"):
     mark = (score / total_questions) * 100
     print("mark: ", str(mark))
     print("Good Bye")
-
-
-
-
 
 else:
     print("Goodbye")
