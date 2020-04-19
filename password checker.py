@@ -4,7 +4,7 @@ m = (input("enter your date of birth.."))
 e = (input("enter your age.."))
 s = (input("enter your password.."))
 if s == ("0123456789"):
-    print("access denied")
+    print("access granted")
 
 else:
-    print("wrong password")
+    print("access denied")
